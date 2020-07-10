@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Cristine Guadelupe`,
-    description: `My Elixir journey`,
+    description: `My Elixir journey through real-time applications`,
     author: `@cristineguadelupe`,
   },
   plugins: [
