@@ -7,9 +7,9 @@ const Profile = () => (
         query MySiteMetadata {
             site {
               siteMetadata {
-                author
-                description
                 title
+                position
+                description
               }
             }
           }
@@ -18,7 +18,7 @@ const Profile = () => (
         render={data => (
             <div className="Profile-wrapper">
                 <h1>{data.site.siteMetadata.title}</h1>
-                <h2>Elixir Alchemist</h2>
+                <h2>{data.site.siteMetadata.position}</h2>
                 <p>{data.site.siteMetadata.description}</p>
             </div>
         )}
