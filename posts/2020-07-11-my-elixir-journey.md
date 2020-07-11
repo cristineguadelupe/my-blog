@@ -3,7 +3,7 @@ date: 2020-07-11 05:54:23
 title: My Elixir Journey
 description: Why I chose Elixir and real time applications to completely change my career in two months
 category: Misc
-background: "#7aab13"
+background: "gray"
 ---
 
 # Lorem ipsum
