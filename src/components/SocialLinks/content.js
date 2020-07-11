@@ -6,7 +6,7 @@ const links = [
     url: `https://github.com/${handle}`,
   },
   {
-    label: "Twiter",
+    label: "Twitter",
     url: `https://github.com/${handle}`,
   },
   {
@@ -15,7 +15,7 @@ const links = [
   },
   {
     label: "Unsplash",
-    url: "https://github.com/cristineguadelupe,",
+    url: `https://github.com/${handle}`,
   },
   {
     label: "Instagram",
