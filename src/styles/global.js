@@ -1,6 +1,6 @@
 import { createGlobalStyle } from "styled-components"
 
- const GlobalStyles = createGlobalStyle`
+const GlobalStyles = createGlobalStyle`
    /* http://meyerweb.com/eric/tools/css/reset/
     v2.0 | 20110126
     License: none (public domain)
@@ -63,4 +63,4 @@ import { createGlobalStyle } from "styled-components"
    	height: auto;
    }
  `
- export default GlobalStyles
+export default GlobalStyles
