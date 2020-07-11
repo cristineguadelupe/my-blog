@@ -8,7 +8,15 @@ import PostItem from '../components/PostItem'
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <PostItem />
+    <PostItem 
+    slug='/about/'
+    background="black"
+    category="Misc"
+    date="July 11 - 2020"
+    timeToRead="5"
+    title="My journey to become an Elixir Alchemist"
+    description="Why I chose Elixir and real time applications to completely change my career in two months"
+    />
   </Layout>
 )
 
