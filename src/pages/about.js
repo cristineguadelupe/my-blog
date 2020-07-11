@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Layout from "../components/layout"
+import Layout from "../components/Layout"
 import SEO from "../components/seo"
 
 // TODO JS arrow function (learn more about it later!!!)
