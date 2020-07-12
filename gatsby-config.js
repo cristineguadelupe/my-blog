@@ -57,6 +57,8 @@ module.exports = {
             },
           },
           `gatsby-remark-lazy-load`,
+          // Needs to be the last plugin inside remark
+          `gatsby-remark-prismjs`,
         ],
       },
     },
