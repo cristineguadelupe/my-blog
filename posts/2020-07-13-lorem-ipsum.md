@@ -1,7 +1,7 @@
 ---
 date: 2020-07-13 05:54:23
 title: Lorem Ispum
-description: Lorem ispum dolor sit amet proin suscipit luctus orci placerat fringilla. Donec hendretir laoreet risus eget adipiscing.
+description: Lorem ispum dolor sit amet proin suscipit luctus orci placerat fringilla
 category: JS
 background: "#7aab13"
 ---

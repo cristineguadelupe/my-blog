@@ -17,4 +17,9 @@ export const PaginationWrapper = styled.section`
             color: #1fa1f2;
         }
     }
+
+    span {
+        color: #8899a6;
+        text-decoration: line-through;
+    }
 `
