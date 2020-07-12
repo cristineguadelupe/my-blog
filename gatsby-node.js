@@ -42,18 +42,37 @@ exports.createPages = ({ graphql, actions }) => {
               slug
             }
           }
+          next {
+            frontmatter {
+              title
+            }
+            fields {
+              slug
+            }
+          }
+          previous {
+            fields {
+              slug
+            }
+            frontmatter {
+              title
+            }
+          }
         }
       }
     }
   `).then(result => {
     const posts = result.data.allMarkdownRemark.edges
 
-    posts.forEach(({ node }) => {
+    posts.forEach(({ node, next, previous }) => {
       createPage({
         path: node.fields.slug,
         component: path.resolve("./src/templates/blog-post.js"),
         context: {
           slug: node.fields.slug,
+          // We're sorting the posts in descending order so it needs to be reversed
+          previousPost: next,
+          nextPost: previous,
         },
       })
     })
