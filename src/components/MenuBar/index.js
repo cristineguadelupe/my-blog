@@ -6,6 +6,8 @@ import { UpArrowAlt as Arrow } from "@styled-icons/boxicons-regular/UpArrowAlt"
 import { LightBulb as Light } from "@styled-icons/entypo/LightBulb"
 import { Grid } from "@styled-icons/boxicons-solid/Grid"
 import { ThList as List } from "@styled-icons/typicons/ThList"
+import { Sun } from "@styled-icons/octicons/Sun"
+import { Moon } from "@styled-icons/heroicons-solid/Moon"
 
 import * as S from "./styled"
 
@@ -38,9 +40,9 @@ const MenuBar = () => {
           onClick={() => {
             window.__setPreferredTheme(isDarkMode ? "light" : "dark")
           }}
-          className={theme}
+          // className={theme}
         >
-          <Light />
+          {isDarkMode ? <Sun /> : <Moon/>}
         </S.MenuBarItem>
         <S.MenuBarItem title="Change view">
           <Grid />
