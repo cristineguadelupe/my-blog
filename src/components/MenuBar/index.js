@@ -38,6 +38,7 @@ const MenuBar = () => {
           onClick={() => {
             window.__setPreferredTheme(isDarkMode ? "light" : "dark")
           }}
+          className={theme}
         >
           <Light />
         </S.MenuBarItem>
