@@ -70,7 +70,9 @@ const GlobalStyles = createGlobalStyle`
      --postColor: #D6DBE1;
      --postHeaders: #557F9A;
      --highlight: #5FCEC5;
-     --mediumBackground: #001628;
+     /* --mediumBackground: #001628; */
+     --mediumBackground: #00111E;
+     --mobileMediumBackground: #00111E;
      --background: #001628;
      --white: #fff;
      --black: #222;

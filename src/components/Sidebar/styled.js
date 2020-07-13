@@ -15,6 +15,9 @@ export const SidebarWrapper = styled.aside`
 
   ${media.lessThan("large")`
     aling-items: flex-start;
+    border-bottom: 1px solid var(--borders);
+    border-right: none;
+    background: var(--mobileMediumBackground);
     height: auto;
     padding: 1rem 2rem;
     width: 100%;
