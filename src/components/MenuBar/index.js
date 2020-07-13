@@ -23,7 +23,7 @@ const MenuBar = () => {
     setDisplay(window.__display)
 
     window.__onThemeChange = () => setTheme(window.__theme)
-    window.__onDisPlayChange = () => setDisplay(window.__display)
+    window.__onDisplayChange = () => setDisplay(window.__display)
   }, [])
 
   return (
