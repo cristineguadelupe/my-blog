@@ -32,7 +32,7 @@ const MenuBar = () => {
         <S.MenuBarLink
           cover
           direction="right"
-          bg="#001628"
+          bg="var(--background)"
           duration={0.6}
           to="/"
           title="Home"
@@ -44,7 +44,7 @@ const MenuBar = () => {
         <S.MenuBarLink
           cover
           direction="right"
-          bg="#001628"
+          bg="var(--background)"
           duration={0.6}
           to="/search"
           title="Search"

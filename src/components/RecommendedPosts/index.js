@@ -8,7 +8,7 @@ const RecommendedPosts = ({ next, previous }) => (
       <S.RecommendedLink
         cover
         direction="left"
-        bg="#001628"
+        bg="var(--background)"
         duration={0.6}
         to={previous.fields.slug}
         className="previous"
@@ -20,7 +20,7 @@ const RecommendedPosts = ({ next, previous }) => (
       <S.RecommendedLink
         cover
         direction="right"
-        bg="#001628"
+        bg="var(--background)"
         duration={0.6}
         to={next.fields.slug}
         className="next"
