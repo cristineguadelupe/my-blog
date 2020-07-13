@@ -7,6 +7,7 @@ module.exports = {
     position: `Elixir Alchemist `,
     description: `My Elixir journey through real-time applications`,
     author: `@cristineguadelupe`,
+    siteUrl: `https://cristine.dev` 
   },
   plugins: [
     `gatsby-plugin-transition-link`,
