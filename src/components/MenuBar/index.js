@@ -50,9 +50,12 @@ const MenuBar = () => {
         >
           {isDarkMode ? <Sun /> : <Moon />}
         </S.MenuBarItem>
-        <S.MenuBarItem title="Change view" onClick={() => {
-          window.__setPreferredDisplay(isListMode ? "grid" : "list")
-        }}>
+        <S.MenuBarItem
+          title="Change view"
+          onClick={() => {
+            window.__setPreferredDisplay(isListMode ? "grid" : "list")
+          }}
+        >
           <Grid />
         </S.MenuBarItem>
         <S.MenuBarItem title="Top">
