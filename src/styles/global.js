@@ -69,7 +69,7 @@ const GlobalStyles = createGlobalStyle`
      --profileText: #A997EF;
      --menuLinks: #A997EF;
      --postColor: #D6DBE1;
-     --postHeaders: #557F9A;
+     /* --postHeaders: #557F9A; */
      --highlight: #5FCEC5;
      --profileHighlight: #D38DF0;
      --menuLinksHighlight: #D38DF0;
@@ -79,6 +79,11 @@ const GlobalStyles = createGlobalStyle`
      --background: #001628;
      --white: #fff;
      --black: #222;
+
+     /* Posts texts */
+     --postTitle: #A997EF;
+     --postDescription: #D38DF0;
+     --postDate: #557F9A;
    }
 
    body.light {

@@ -14,6 +14,7 @@ export const PostHeader = styled.header`
 `
 
 export const PostTitle = styled.h1`
+  color: var(--postTitle);
   font-size: 4rem;
   font-weight: 700;
   padding: 0 1.4rem;
@@ -26,6 +27,7 @@ export const PostTitle = styled.h1`
    `}
 `
 export const PostDescription = styled.h2`
+  color: var(--postDescription);
   font-size: 2rem;
   font-weight: 200;
   padding: 0 1.4rem;
@@ -38,6 +40,7 @@ export const PostDescription = styled.h2`
 `
 
 export const PostDate = styled.p`
+  color: var(--postDate);
   font-size: 1.1rem;
   font-weight: 100;
   padding: 0 1.4rem;
