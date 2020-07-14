@@ -1,8 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { TransitionPortal } from "gatsby-plugin-transition-link"
-import { useStaticQuery, graphql } from "gatsby"
-import Profile from "../Sidebar"
 
 import * as S from "./styled"
 import GlobalStyles from "../../styles/global"
