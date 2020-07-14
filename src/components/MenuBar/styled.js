@@ -66,7 +66,7 @@ export const MenuBarItem = styled.span`
   }
 
   &:hover {
-    color: var(--highlight);
+    color: var(--iconsHighlight);
   }
 
   &.display {
@@ -77,7 +77,7 @@ export const MenuBarItem = styled.span`
 
   ${media.greaterThan("large")`
      &:hover {
-       color: var(--highlight);
+       color: var(--iconsHighlight);
      }
    `}
 

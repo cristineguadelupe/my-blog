@@ -93,6 +93,13 @@ const GlobalStyles = createGlobalStyle`
      --blockquote: #A997EF;
      --postLinks: #A997EF;
      --codeBackground: #00111E;
+
+     /* Post Item Link */
+     --postItemLink: #A997EF;
+
+     /* Icons Link */
+     --iconsHighlight: #5FCEC5;
+
    }
 
    body.light {
