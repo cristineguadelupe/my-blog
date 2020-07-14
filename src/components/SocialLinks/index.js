@@ -1,6 +1,6 @@
 import React from "react"
 
-import Icons from "./icons"
+import Icons from "./SocialIcons"
 import links from "./content"
 
 import * as S from "./styled"
