@@ -96,6 +96,7 @@ const GlobalStyles = createGlobalStyle`
 
      /* Post Item Link */
      --postItemLink: #A997EF;
+     --itemTag: #ECEFF4;
 
      /* Icons Link */
      --iconsFill: #A997EF;
@@ -133,6 +134,7 @@ const GlobalStyles = createGlobalStyle`
 
      /* Post Item Link */
      --postItemLink: #A997EF;
+     --itemTag: #ECEFF4;
 
      /* Icons Link */
      --iconsFill: #BF616A;
