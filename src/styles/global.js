@@ -83,7 +83,7 @@ const GlobalStyles = createGlobalStyle`
      /* Posts texts */
      --postTitle: #A997EF;
      --postDescription: #D38DF0;
-     --postDate: #557F9A;
+     --postDate: #8899a6;
    }
 
    body.light {
