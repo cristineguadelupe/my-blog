@@ -135,7 +135,7 @@ export const MainContent = styled.section`
 
   blockquote {
     color: var(--postColor);
-    border-left: 0.3rem solid var(--highlight);
+    border-left: 0.3rem solid var(--blockquote);
     padding: 0 1.875rem;
     margin: 3.125rem auto;
   }
@@ -229,8 +229,8 @@ export const MainContent = styled.section`
   }
 
   a {
-    border-bottom: 1px dashed var(--highlight);
-    color: var(--highlight);
+    border-bottom: 1px dashed var(--postLinks);
+    color: var(--postLinks);
     text-decoration: none;
     transition: opacity 0.5s;
 

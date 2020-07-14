@@ -69,6 +69,7 @@ const GlobalStyles = createGlobalStyle`
      --profileText: #A997EF;
      --menuLinks: #A997EF;
      /* --postHeaders: #557F9A; */
+     /* --highlight: #5FCEC5; */
      --highlight: #5FCEC5;
      --profileHighlight: #D38DF0;
      --menuLinksHighlight: #D38DF0;
@@ -83,10 +84,14 @@ const GlobalStyles = createGlobalStyle`
      --postTitle: #A997EF;
      --postDescription: #D38DF0;
      --postDate: #8899a6;
-     --postHeaders: #B6A7F1;
+     --postHeaders: #D6DBE1;
 
      /* Main post text color */
      --postColor: #D6DBE1;
+
+     /* Post details */
+     --blockquote: #A997EF;
+     --postLinks: #A997EF;
    }
 
    body.light {
