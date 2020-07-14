@@ -92,6 +92,7 @@ const GlobalStyles = createGlobalStyle`
      /* Post details */
      --blockquote: #A997EF;
      --postLinks: #A997EF;
+     --codeBackground: #00111E;
    }
 
    body.light {
@@ -104,6 +105,8 @@ const GlobalStyles = createGlobalStyle`
      --background: #FBFBFB;
      --white: #fff;
      --black: #222;
+
+     --codeBackground: #00111E;
    }
  `
 export default GlobalStyles

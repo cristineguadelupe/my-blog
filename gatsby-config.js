@@ -7,7 +7,7 @@ module.exports = {
     position: `Elixir Alchemist `,
     description: `My Elixir journey through real-time applications`,
     author: `@cristineguadelupe`,
-    siteUrl: `https://cristine.dev` 
+    siteUrl: `https://cristine.dev`,
   },
   plugins: [
     `gatsby-plugin-transition-link`,
@@ -63,7 +63,12 @@ module.exports = {
           },
           `gatsby-remark-lazy-load`,
           // Needs to be the last plugin inside remark
-          `gatsby-remark-prismjs`,
+          {
+            resolve: `gatsby-remark-prismjs`,
+            options: {
+              showLineNumbers: false,
+            },
+          },
         ],
       },
     },

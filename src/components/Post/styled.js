@@ -222,6 +222,12 @@ export const MainContent = styled.section`
 
   .gatsby-highlight {
     padding: 0 1.6rem 1.6rem;
+    /* border: 1px solid var(--borders) */
+  }
+
+  pre {
+    /* border: 1px solid var(--borders); */
+    background: var(--codeBackground);
   }
 
   .instagram-media {
