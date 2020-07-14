@@ -98,22 +98,45 @@ const GlobalStyles = createGlobalStyle`
      --postItemLink: #A997EF;
 
      /* Icons Link */
-     --iconsHighlight: #5FCEC5;
+     --iconsFill: #A997EF;
+     --iconsHighlight: #D38DF0;
 
    }
 
    body.light {
      --borders: #dedede;
-     --postColor: #111;
      --texts: #555555;
+     --profileText: #BF616A;
+     --menuLinks: #BF616A;
      --highlight: #1fa1f2;
+     --profileHighlight: #5E81AC;
+     --menuLinksHighlight: #5E81AC;
      --mediumBackground: #F0F0F0;
      --mobileMediumBackground: #F0F0F0;
      --background: #FBFBFB;
      --white: #fff;
      --black: #222;
 
+     /* Posts texts */
+     --postTitle: #BF616A;
+     --postDescription: #BF616A;
+     --postDate: #8899a6;
+     --postHeaders: #BF616A;
+
+     /* Main post text color */
+     --postColor: #111;
+
+     /* Post details */
+     --blockquote: #BF616A;
+     --postLinks: #BF616A;
      --codeBackground: #00111E;
+
+     /* Post Item Link */
+     --postItemLink: #A997EF;
+
+     /* Icons Link */
+     --iconsFill: #BF616A;
+     --iconsHighlight: #5E81AC;
    }
  `
 export default GlobalStyles

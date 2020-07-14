@@ -49,7 +49,7 @@ export const MenuBarLink = styled(AniLink)`
 `
 
 export const MenuBarItem = styled.span`
-  color: var(--texts);
+  color: var(--iconsFill);
   cursor: pointer;
   display: block;
   height: 3.75rem;
@@ -57,13 +57,13 @@ export const MenuBarItem = styled.span`
   position: relative;
   width: 3.75rem;
 
-  &.light {
+  /* &.light {
     color: #d4d400;
 
     &:hover {
       color: #e2e240;
     }
-  }
+  } */
 
   &:hover {
     color: var(--iconsHighlight);
