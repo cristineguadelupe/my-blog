@@ -93,6 +93,7 @@ export const MainContent = styled.section`
   h4,
   h5 {
     margin: 2.4rem auto 1rem;
+    color: var(--postHeaders);
   }
 
   ul,
