@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 // TODO JS arrow function (learn more about it later!!!)
 const AboutPage = () => (
     <Layout>
-        <SEO title="About" />
+        <SEO title="About Me" />
         <h1>About Page</h1>
         
     </Layout>
