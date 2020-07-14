@@ -16,7 +16,7 @@ const MenuLinks = () => (
             to={link.url}
             activeClassName="active"
           >
-            ✿ {link.label} ✿
+            ✿ {link.label}
           </S.MenuLinksLink>
         </S.MenuLinksItem>
       ))}
