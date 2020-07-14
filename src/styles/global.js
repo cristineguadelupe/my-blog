@@ -120,11 +120,11 @@ const GlobalStyles = createGlobalStyle`
      /* Posts texts */
      --postTitle: #BF616A;
      --postDescription: #BF616A;
-     --postDate: #8899a6;
+     --postDate: #434C5E;
      --postHeaders: #BF616A;
 
      /* Main post text color */
-     --postColor: #111;
+     --postColor: #2E3440;
 
      /* Post details */
      --blockquote: #BF616A;
