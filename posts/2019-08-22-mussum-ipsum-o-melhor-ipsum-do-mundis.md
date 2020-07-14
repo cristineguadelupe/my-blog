@@ -4,8 +4,8 @@ description: Mussum Ipsum, cacilds vidis litro abertis. Não sou faixa preta cum
 date: 2019-08-22 08:51:23
 image: /assets/img/mussum-ipsum.jpg
 thumbnail: assets/img/mussum-ipsum.jpg
-category: jekyll
-background: "#B31917"
+category: phx
+background: "#F25423"
 ---
 ## Mussum Ipsum o melhor ipsum do mundis
 

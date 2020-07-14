@@ -4,7 +4,7 @@ description: Just a lorem ipsum to test everything
 date: 2020-07-14 01:38:21
 thumbnail: assets/img/mountains.jpg
 category: elixir
-background: "#2DA0C3"
+background: "#4A1F5F"
 ---
 Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, [bibendum](http://google.com) eu pulvinar vel, sodales vitae dui.
 
