@@ -1,10 +1,11 @@
 ---
 title: Mussum Ipsum o melhor ipsum do mundis
-description: 'Mussum Ipsum, cacilds vidis litro abertis. Não sou faixa preta cumpadi'
-date: '2019-08-22 08:51:23'
+description: Mussum Ipsum, cacilds vidis litro abertis. Não sou faixa preta cumpadi
+date: 2019-08-22 08:51:23
 image: /assets/img/mussum-ipsum.jpg
+thumbnail: assets/img/mussum-ipsum.jpg
 category: jekyll
-background: '#B31917'
+background: "#B31917"
 ---
 ## Mussum Ipsum o melhor ipsum do mundis
 
@@ -19,6 +20,7 @@ Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose. Admodu
 - Cevadis
 - Lupulis
 - Drinks
+- Mortis
 
 ### Uma frasis de impactis
 
