@@ -10,7 +10,7 @@ export const ProfileWrapper = styled.section`
 `
 
 export const ProfileLink = styled(AniLink)`
-  color: var(--importantTexts);
+  color: var(--profileText);
   text-decoration: none;
   transition: color 0.5s;
 
@@ -20,7 +20,7 @@ export const ProfileLink = styled(AniLink)`
   `}
 
   &:hover {
-    color: var(--highlight);
+    color: var(--profileHighlight);
   }
 `
 

@@ -66,10 +66,13 @@ const GlobalStyles = createGlobalStyle`
    body.dark {
      --borders: #14385F;
      --texts: #8899a6;
-     --importantTexts: #D38DF0;
+     --profileText: #A997EF;
+     --menuLinks: #A997EF;
      --postColor: #D6DBE1;
      --postHeaders: #557F9A;
      --highlight: #5FCEC5;
+     --profileHighlight: #D38DF0;
+     --menuLinksHighlight: #D38DF0;
      /* --mediumBackground: #001628; */
      --mediumBackground: #00111E;
      --mobileMediumBackground: #00111E;
