@@ -37,7 +37,7 @@ collections:
           options: [
             { label: "Elixir", value: "#B31917" },
             { label: 'Phoenix', value: '#2DA0C3' },
-            { label: 'LiveView', value: '#D6BA32' },
+            { label: 'LV', value: '#D6BA32' },
             { label: 'JS', value: '#EB7728' },
             { label: 'App', value: '#7D669E' },
             { label: 'Dev', value: '#637a91' },
