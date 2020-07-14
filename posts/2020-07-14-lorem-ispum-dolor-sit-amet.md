@@ -3,8 +3,8 @@ title: Lorem ispum dolor sit amet
 description: Just a lorem ipsum to test everything
 date: 2020-07-14 01:38:21
 thumbnail: assets/img/mountains.jpg
-category: misc
-background: "#7AAB13"
+category: liveview
+background: "#D6BA32"
 ---
 Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, [bibendum](http://google.com) eu pulvinar vel, sodales vitae dui.
 
