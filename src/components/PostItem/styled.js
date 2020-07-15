@@ -3,16 +3,18 @@ import media from "styled-media-query"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 export const PostItemLink = styled(AniLink)`
-  color: var(--texts);
+  color: var(--postItemLink);
   display: flex;
   text-decoration: none;
+  border-left: 1px solid var(--background);
 
   body#grid & {
     background-color: var(--background);
   }
 
   &:hover {
-    color: var(--highlight);
+    color: var(--postItemLinkHover);
+    border-left: 1px solid var(--postItemLinkHover);
   }
 `
 
@@ -63,7 +65,6 @@ export const PostItemTag = styled.div`
   body#grid & {
     margin-bottom: 1.5rem;
   }
-
 `
 
 export const PostItemInfo = styled.div`
