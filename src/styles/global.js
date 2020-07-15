@@ -134,7 +134,8 @@ const GlobalStyles = createGlobalStyle`
      --codeBackground: #00111E;
 
      /* Post Item Link */
-     --postItemLink: #A997EF;
+     --postItemLink: #555555;
+     --postItemLinkHover: #BF616A;
      --itemTag: #ECEFF4;
 
      /* Icons Link */
