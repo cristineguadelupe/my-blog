@@ -51,7 +51,7 @@ export const PostDate = styled.p`
 `
 
 export const MainContent = styled.section`
-  margin: auto;     
+  margin: auto;
   max-width: 70rem;
   padding: 2rem 5rem;
 
@@ -179,7 +179,7 @@ export const MainContent = styled.section`
 
   h3 {
     font-size: 1.6rem;
-    
+
     ${media.lessThan("large")`
        font-size: 1.125rem;
      `}
